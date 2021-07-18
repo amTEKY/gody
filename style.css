@@ -1,0 +1,162 @@
+:root{
+    --clr-neon: hsl(317 100% 54%);
+    --clr-bg: hsl(323 21% 16%)
+}
+
+
+
+
+body{
+    
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    
+    
+    
+    place-items: center;
+    
+    font-family: "Balsamiq Sans", cursive;
+    color: var(--clr-neon);
+    
+
+
+
+
+
+}
+
+.neonbtn{
+    
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    font-size:  2rem;
+
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-neon); 
+    border: var(--clr-neon) 4px solid;
+    border-radius: 10%;
+    
+    padding: 0.25em 1em;
+    border-radius: 50px;
+   
+    
+
+
+
+
+}
+
+
+
+.text{
+    color: white;
+    
+    position: absolute;
+    top: 45%;
+    left: 35%;
+
+}
+
+#particles-js{
+    height: 100%;
+    background: black;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    
+
+
+
+
+
+
+
+
+}
+.neonbtn:hover{
+    text-shadow: 
+    0 0 0.25em currentColor;
+    box-shadow: 0 0 1em 0 var(--clr-neon);
+}
+
+
+
+   
+@keyframes type{
+    0% {
+        width:0ch;
+    }
+    100%{
+        width: 00ch;
+    }
+}
+.gody{
+    
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    animation: type 3s steps(22);
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: consolas;
+    border-right: 4px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
